@@ -1,0 +1,66 @@
+/* Start Outlined Button */
+.outlined-button button {
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+    font-size: 18px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.outlined-button button::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+
+.outlined-button button:hover {
+    color: #121212;
+}
+
+.outlined-button button:hover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+.outlined-button a {
+    text-decoration: none;
+}
+
+/* End Outlined Button */
+
+/* Start Login Button */
+.login-button button {
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 16px;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: border 0.3s ease-in-out, padding 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.75;
+}
+
+.login-button button:hover {
+    border: 1px solid #fff;
+    padding: 15px 25px;
+}
+
+.login-button a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* End Login Button */
