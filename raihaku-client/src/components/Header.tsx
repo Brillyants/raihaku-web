@@ -60,9 +60,6 @@ const Header = () => {
             <Nav.Link href="#faq" className="navbar-link">
               FAQ
             </Nav.Link>
-            <Nav.Link href="#video" className="navbar-link">
-              Video
-            </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <LoginButton />
