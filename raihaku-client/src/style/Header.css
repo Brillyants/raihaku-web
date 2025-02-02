@@ -1,5 +1,5 @@
 nav.navbar {
-    padding: 18px 0;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -10,8 +10,7 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-    padding: 20px 0;
-    background-color: #10022F !important;
+    padding: 8px 0;
 }
 
 nav.navbar a.navbar-brand {

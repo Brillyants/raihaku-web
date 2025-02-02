@@ -80,6 +80,39 @@ select:focus {
     outline: none;
 }
 
+.tagline {
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(90.21deg, #8C01D4 -5.91%, #3200BF 111.58%);
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.purple-text {
+    background: linear-gradient(90.21deg, #8B01D4 0%, #3201C0 67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-semibold {
+    font-weight: 500;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
 @media (min-width:1700px) {
     main .container {
         max-width: 100%;

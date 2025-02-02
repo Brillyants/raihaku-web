@@ -1,13 +1,14 @@
-import Header from "./components/Header";
 import "./style/General.css";
-import "./style/Header.css";
-import "./style/Icons.css";
-import "./style/Button.css";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import EWallet from "./components/EWallet";
 
 function App() {
   return (
     <>
       <Header />
+      <Hero />
+      <EWallet />
     </>
   );
 }

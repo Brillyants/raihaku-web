@@ -1,4 +1,5 @@
 import { FaUser } from "react-icons/fa";
+import "../../style/Button.css";
 
 const LoginButton = () => {
   return (

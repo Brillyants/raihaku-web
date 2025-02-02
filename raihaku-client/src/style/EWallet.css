@@ -1,0 +1,14 @@
+.ewallet {
+    background: linear-gradient(90deg, #4A0281 50%, #2A00A0 100%);
+    padding: 10px 0;
+}
+
+.ewallet img {
+    width: 60%;
+    height: auto;
+}
+
+.ewallet-name {
+    font-size: 18px;
+    letter-spacing: 2px;
+}

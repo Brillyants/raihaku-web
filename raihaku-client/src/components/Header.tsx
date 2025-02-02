@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../assets/img/brillyant-logo.png";
 import LoginButton from "./Button/LoginButton";
+import "../style/Header.css";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -32,7 +33,7 @@ const Header = () => {
     <Navbar
       id="header"
       expand="lg"
-      className={scrolled || isToggled ? "scrolled bg-grey" : ""}
+      className={scrolled || isToggled ? "scrolled" : ""}
     >
       <Container>
         <Navbar.Brand href="#hero">
@@ -58,6 +59,9 @@ const Header = () => {
             </Nav.Link>
             <Nav.Link href="#faq" className="navbar-link">
               FAQ
+            </Nav.Link>
+            <Nav.Link href="#video" className="navbar-link">
+              Video
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
