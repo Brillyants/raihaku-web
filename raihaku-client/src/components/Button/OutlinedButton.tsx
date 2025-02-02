@@ -1,3 +1,5 @@
+import "../../style/Button.css";
+
 interface OutlinedButtonProps {
   text: string;
   url: string;

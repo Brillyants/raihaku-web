@@ -2,6 +2,7 @@ import linkedinLogo from "../assets/img/linkedin-logo.svg";
 import whatsappLogo from "../assets/img/whatsapp-logo.png";
 import instagramLogo from "../assets/img/instagram-logo.svg";
 import githubLogo from "../assets/img/github-logo.png";
+import "../style/Icons.css";
 
 const SocialIcons = () => {
   return (
