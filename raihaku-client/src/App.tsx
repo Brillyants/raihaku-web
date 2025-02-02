@@ -2,7 +2,7 @@ import "./style/General.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import EWallet from "./components/EWallet";
-import Whyus from "./components/Whyus";
+
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <Header />
       <Hero />
       <EWallet />
-      <Whyus />
     </>
   );
 }
