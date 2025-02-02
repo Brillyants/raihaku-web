@@ -16,4 +16,9 @@
     width: 100px;      /* Set the width */
     height: 100px;     /* Set the height (same as width for a circle) */
 }
-  
+
+.negative-margin {
+    margin-top: -50px !important;
+    z-index: -5;
+    position: relative;
+}

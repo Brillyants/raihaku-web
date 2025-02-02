@@ -5,6 +5,7 @@ interface GradientCircleProps {
   strokeWidth?: number; // Stroke width (default 10)
   startColor?: string; // Gradient start color (default #8C01D4)
   endColor?: string; // Gradient end color (default #3200BF)
+  fillColor?: string;
   imageUrl?: string; // URL of the image to display inside the circle
   text?: string; // Text to display inside the circle
 }
@@ -14,6 +15,7 @@ const GradientCircle: React.FC<GradientCircleProps> = ({
   strokeWidth = 10, // Default stroke width
   startColor = "#8C01D4", // Default gradient start color
   endColor = "#3200BF", // Default gradient end color
+  fillColor = "#10022F",
   imageUrl,
   text
 }) => {
@@ -38,19 +40,20 @@ const GradientCircle: React.FC<GradientCircleProps> = ({
         cx={size / 2}
         cy={size / 2}
         r={radius}
-        fill="none"
+        fill={fillColor}
         stroke="url(#gradientStroke)"
         strokeWidth={strokeWidth}
+        
       />
 
       {/* Render image if imageUrl is provided */}
       {imageUrl && (
         <image
           href={imageUrl}
-          x={size / 2 - radius} // Center the image horizontally
-          y={size / 2 - radius} // Center the image vertically
-          width={radius * 2} // Set width to fit the circle
-          height={radius * 2} // Set height to fit the circle
+          x={size / 2 - 25} // Center the image horizontally
+          y={size / 2 - 25} // Center the image vertically
+          width={50} // Set width to fit the circle
+          height={50} // Set height to fit the circle
           clipPath="url(#circleClip)" // Apply circular clipping path
         />
       )}

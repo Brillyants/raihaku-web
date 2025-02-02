@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import GradientCircle from "./Shapes/GradientCircle";
-import CommunityImage from './assets/img/Community.png';
+import GradientSquare from "./Shapes/GradientRoundedSquare";
+import CommunityImg from "../assets/img/Community.png";
 import "../style/Whyus.css";
 
 const whyus = () => {
@@ -20,14 +21,43 @@ const whyus = () => {
                     </Col>
                 </Row>
                 <Row className="align-items-center">
-                    <Col>
-                        <GradientCircle imageUrl="/assets/img/Community.png" ></GradientCircle>
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <GradientCircle imageUrl={CommunityImg} ></GradientCircle>
                     </Col>
-                    <Col>
-                        <div className="circle bg-primary rounded-circle"></div>
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <GradientCircle imageUrl={CommunityImg} ></GradientCircle>
                     </Col>
-                    <Col>
-                        <div className="circle bg-primary rounded-circle"></div>
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <GradientCircle imageUrl={CommunityImg} ></GradientCircle>
+                    </Col>
+                </Row>
+                <Row className="negative-margin align-items-center">
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <GradientSquare>
+                            <h3 className="mx-2 mt-4">Benefits</h3>
+                            <p className="mx-4">Support creators with Text, Sound, 
+                                and Video Donations, making every interaction 
+                                unique and exciting.
+                            </p>
+                        </GradientSquare>
+                    </Col>
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <GradientSquare>
+                            <h3 className="mx-2 mt-4">Benefits</h3>
+                            <p className="mx-4">Support creators with Text, Sound, 
+                                and Video Donations, making every interaction 
+                                unique and exciting.
+                            </p>
+                        </GradientSquare>
+                    </Col>
+                    <Col className="d-flex justify-content-center align-items-center">
+                        <GradientSquare>
+                            <h3 className="mx-2 mt-4">Benefits</h3>
+                            <p className="mx-4">Support creators with Text, Sound, 
+                                and Video Donations, making every interaction 
+                                unique and exciting.
+                            </p>
+                        </GradientSquare>
                     </Col>
                 </Row>
             </Container>
