@@ -1,0 +1,19 @@
+.whyus {
+    margin-top: 0;
+    padding: 150px 0 25px 0;
+}
+
+.whyus h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 32px;
+    display: block;
+}
+
+.whyus circle {
+    width: 100px;      /* Set the width */
+    height: 100px;     /* Set the height (same as width for a circle) */
+}
+  
