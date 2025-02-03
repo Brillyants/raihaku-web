@@ -7,13 +7,13 @@ const Whyus = () => {
         <section className="whyus" id="whyus">
             <Container>
                 <Row className="text-center mb-5">
-                    <Col xs={12} sm={12} md={12} lg={12}> {/* Full width for all screen sizes */}
+                    <Col xs={12} sm={12} md={12} lg={12}>
                         <h2>Why Raihaku?</h2>
                         <p>
-                            Raihaku membuat mendukung kreator menjadi menyenangkan dan mudah dengan 
-                            Donasi Teks, Suara, dan Video, Papan Peringkat, Hadiah Donatur, dan 
-                            Langganan. Tetap anonim atau dapatkan pengakuan—pilihan ada di 
-                            tangan Anda! Dengan berbagai pilihan metode pembayaran, mendonasi 
+                            Raihaku membuat mendukung kreator menjadi menyenangkan dan mudah dengan
+                            Donasi Teks, Suara, dan Video, Papan Peringkat, Hadiah Donatur, dan
+                            Langganan. Tetap anonim atau dapatkan pengakuan—pilihan ada di
+                            tangan Anda! Dengan berbagai pilihan metode pembayaran, mendonasi
                             kini lebih mudah dari sebelumnya.
                         </p>
                     </Col>
@@ -57,7 +57,7 @@ const Whyus = () => {
                                             </div>
                                         </foreignObject>
                                     </svg>
-                                </Col> 
+                                </Col>
                             </Row>
                         </div>
                         <div className="card-container ">
@@ -97,7 +97,7 @@ const Whyus = () => {
                                             </div>
                                         </foreignObject>
                                     </svg>
-                                </Col> 
+                                </Col>
                             </Row>
                         </div>
                         <div className="card-container ">
@@ -137,11 +137,11 @@ const Whyus = () => {
                                             </div>
                                         </foreignObject>
                                     </svg>
-                                </Col> 
+                                </Col>
                             </Row>
                         </div>
                     </Col>
-                </Row>      
+                </Row>
             </Container>
         </section>
     );
