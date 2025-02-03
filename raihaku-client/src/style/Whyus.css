@@ -1,6 +1,6 @@
 .whyus {
     margin-top: 0;
-    padding: 150px 0 25px 0;
+    padding: 150px 0 150px 0;
 }
 
 .whyus h2 {
@@ -13,12 +13,134 @@
 }
 
 .whyus circle {
-    width: 100px;      /* Set the width */
-    height: 100px;     /* Set the height (same as width for a circle) */
+    width: 100px;   
+    height: 100px;    
 }
 
 .negative-margin {
     margin-top: -50px !important;
     z-index: -5;
     position: relative;
+}
+
+.custom-circle-svg {
+  width: 120px;
+  height: 120px;    
+}
+
+:root {
+  --gradient-x1: 0%;
+  --gradient-y1: 0%;
+  --gradient-x2: 100%;
+  --gradient-y2: 100%;
+}
+
+.gradient-stop-start {
+  stop-color: #8c01d4;
+  stop-opacity: 1;
+}
+
+.gradient-stop-end {
+  stop-color: #3200bf;
+  stop-opacity: 1;
+}
+
+.clip-circle {
+  cx: 60px;
+  cy: 60px;
+  r: 50px;
+}
+
+.circle-bg {
+  cx: 60px;
+  cy: 60px;
+  r: 50px;
+  fill: #10022f;
+  stroke-width: 10px;
+}
+
+.circle-image {
+  x: 35px;
+  y: 35px;
+  width: 50px;
+  height: 50px;
+}
+
+.custom-rect-svg {
+    width: 330px; 
+    height: 280px; 
+    display: block;
+}
+
+.custom-rect {
+    width: 320px; 
+    height: 270px;
+    fill: #23085B;
+    x: 5;
+    y: 5;
+    stroke-width: 10;
+    stroke: url(#gradientStroke);
+    rx: 50;
+    ry: 50;
+}
+
+.custom-content-container {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.card-container {
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+@media (max-width: 1200px) {
+    .card-container {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+
+    .custom-content p {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .custom-rect-svg {
+        width: 300px; 
+        height: 260px; 
+        display: block;
+    }
+
+    .custom-rect {
+        width: 290px; 
+        height: 250px;
+        x: 5;
+        y: 5;
+    }
+
+    .custom-content-container {
+        x: 0;
+        y: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card-cols {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-container {
+        margin-bottom: 48px;
+    }
 }
