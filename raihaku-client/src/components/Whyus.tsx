@@ -48,7 +48,7 @@ const Whyus = () => {
                                             </linearGradient>
                                         </defs>
                                         <rect className="custom-rect" stroke="url(#gradientStroke)" />
-                                        <foreignObject className="custom-content-container">
+                                        <foreignObject className="custom-content-container justify-content-center align-items-center">
                                             <div className="custom-content">
                                                 <h3 className="mx-2 mt-4">Benefits</h3>
                                                 <p className="mx-5">
